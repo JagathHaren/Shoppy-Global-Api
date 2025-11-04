@@ -71,7 +71,7 @@ This is the backend for the **ShoppyGlobe E-commerce Application**, built with *
 
 ### Clone the repository & install dependencies
 
-1. git clone url
+1. git clone [url](https://github.com/JagathHaren/Shoppy-Global-Api)
 2. use cd to change directory
 3. npm install
 
@@ -126,4 +126,5 @@ Server will run at : **[http://localhost:4000](http://localhost:4000)**
 2. Create requests for each route (Auth, Products, Cart, DSA).
 3. Use `Bearer Token` authentication for cart routes 
 4. Verify responses 
-Github: 
+
+## Github: https://github.com/JagathHaren/Shoppy-Global-Api
