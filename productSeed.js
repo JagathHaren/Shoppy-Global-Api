@@ -8,7 +8,7 @@ const MONGO_URI = "mongodb://localhost:27017/shoppyGlobal-RestAPI";
 async function seedDatabase() {
   try {
     // Connect to MongoDB
-    await mongoose.connect(MONGO_URI);
+    await mongoose.connect(MONGO_URL);
     console.log(`✅ Connected to DB: ${mongoose.connection.name}`);
 
     // Check if collection already has data

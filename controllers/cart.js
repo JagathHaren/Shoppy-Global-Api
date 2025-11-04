@@ -22,6 +22,7 @@ const addCartItem = async (req, res) => {
         let cartItem = await cartModel.findOne({
             userId: req.user.id,
             productId
+
         })
 
         // Attach userId from authMiddleware
@@ -99,6 +100,7 @@ const deleteCartItem = async (req, res) => {
         res.status(200).json({
             message: "Cart item deleted successfully",
             deletedItem
+            
         })
     } catch (error) {
         res.status(500).json({ message: error.message });
